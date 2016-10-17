@@ -12,7 +12,7 @@ function validateForm(){
   		return false;
 	}
 	//Campo Nombre
-	/*Uso de Expresion regular para nombres propios, donde acepta todas las mayusculas de A a Z
+	/*Uso de Expresion regular (niego mi expresion regular) para nombres propios, donde acepta todas las mayusculas de A a Z
 	  ademas de las vocales acentuadas y en mayuscula, de esta condicion solo acepta una que es la
 	  inicial del nombre, posteriormente acepta las letras minusculas de la a a z la ñ y las vocales
 	  acentuadas, si hay dos nombre acepta espacio*/
